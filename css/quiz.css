@@ -1,0 +1,137 @@
+body{
+	background-image: url('../img/44.jpg');
+	margin:0;
+	padding:0;
+	 background-size: cover;    /*arka planı ekrana sığdırdı*/
+	background-repeat:no-repeat;
+background-attachment: fixed;
+
+}
+*{
+	box-sizing: border-box;
+	font-family: Comic Sans MS;
+}
+
+h1{
+	font-family:Comic Sans MS;
+	text-align: center;
+	color: #ffffff;
+	margin:30px 0px -15px;
+}
+
+.quiz_wrapper{
+	height: 400px;
+	width: 650px;
+	background-color:black;
+	margin:130px auto;
+	opacity:0.8;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+.quiz_wrapper .question{
+	font-family:Comic Sans MS;
+	padding: 25px;
+	background-color:#C62828;
+	border-radius: 8px;
+	color:#ffffff;
+	font-size:20px;
+	float: left;
+	width: 100%;
+
+}
+.quiz_wrapper .options{
+	float: left;
+	width: 100%;
+}
+
+.quiz_wrapper .options ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.quiz_wrapper .options ul li{
+	font-family:Comic Sans MS;
+	display: inline-block;
+	background-color:#DCEDC8;
+	width: 47%;
+	padding: 15px;
+	border-radius:8px;
+	margin-top: 25px;
+	font-size: 20px;
+	color:#C62828;
+	box-shadow: 10px 1px 10px grey;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+.quiz_wrapper .options ul li:active{
+	box-shadow: 0px 3px 0px transparent;	
+
+}
+.quiz_wrapper .options ul li.DOĞRU{
+	background-color: #0fd40f;
+	box-shadow: 0px 3px 0px #03a503;
+}
+
+.quiz_wrapper .options ul li.YANLIŞ{
+	background-color: #e91e1e;
+	box-shadow: 0px 3px 0px #cb0b0b;
+}
+
+.quiz_wrapper .score{
+	float: left;
+	width: 100%;
+	padding:25px 0px;
+}
+
+.quiz_wrapper .score .next{
+	width: 40%;
+	float: left;
+}
+.quiz_wrapper .score .next button{
+	padding: 15px 80px;
+	color:white;
+	background-color:#8B0000	;
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	
+	outline: none;
+}
+.quiz_wrapper .score .next button:active{
+box-shadow: 0px 3px 0px transparent;	
+}
+
+.quiz_wrapper .score .score-card{
+	width: 60%;
+	float: left;
+}
+.quiz_wrapper .score .score-card{
+	font-size: 20px;
+	color:white;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+.quiz_wrapper .score .score-card span{
+	background-color: #E9967A;
+	padding: 5px 20px;
+	border-radius: 8px;
+	color:#ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
